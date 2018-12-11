@@ -1,0 +1,59 @@
+body {
+    //background-color: #074462;
+    background-color: light-blue;
+    }
+
+.title {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #024364;
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+.selection {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #1B647F;
+    font-size: 20px;
+    font-weigth: thin;
+    }
+
+h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #024364;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 24px;
+    }
+u {
+    border-bottom: 2px dashed #999;
+    text-decoration: none;
+    }
+.bullet-list {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #1B647F;
+    font-size: 20px;
+    list-style-type: none;
+    } 
+.bullet {
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+.bullet:before {
+
+    content: '';
+
+    display: inline-block;
+
+    height: 13px;
+
+    width: 13px;
+
+    background-size: 13px;
+
+    background-image: url('http://www.jasonherman.com/wp-content/uploads/2018/09/right_chevron_fill.png');
+
+    background-repeat: no-repeat;
+
+    margin-right: 5px;
+    
+    }
