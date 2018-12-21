@@ -1,7 +1,14 @@
 body {
     //background-color: #074462;
-    background-color: light-blue;
+    background-color: #e7f6fd;
     }
+
+.student {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #024364;
+    text-transform: captialize;
+    font-weight: bold;
+}
 
 .title {
     font-family: 'Nunito Sans', sans-serif;
@@ -15,6 +22,13 @@ body {
     font-size: 20px;
     font-weigth: thin;
     }
+
+.studentStats {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #1B647F;
+    font-size: 18px;
+    font-weigth: thin;
+}
 
 h3 {
     font-family: 'Nunito Sans', sans-serif;
@@ -32,7 +46,7 @@ u {
     color: #1B647F;
     font-size: 20px;
     list-style-type: none;
-    } 
+    }
 .bullet {
     padding: 5px;
     text-transform: capitalize;
@@ -55,5 +69,125 @@ u {
     background-repeat: no-repeat;
 
     margin-right: 5px;
-    
+
     }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+table {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #1B647F;
+  font-size: 20px;
+  border-collapse: collapse;
+}
+
+.statsTable{
+
+}
+
+td, th {
+
+  text-align: left;
+  padding: 12px;
+}
+
+.tdHead {
+  text-align: right;
+  font-weight: bold;
+}
+
+th {
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #FFF;
+}
+
+.statsTr:nth-child(even) {
+  background-color: #e7f6fd;
+}
+
+.sidenav {
+  height: 100%;
+  width: 275px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 40px;
+  margin-top: 55px;
+  border-right-color: #818181;
+  border-right-style: solid;
+  border-right-width: thin;
+}
+
+.sidenav a {
+  padding: 10px 6px 10px 80px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #818181;
+  display: block;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #1B647F;
+
+}
+
+.header {
+  width:100%;
+  height: 55px;
+  border-color: #818181;
+  border-style: solid;
+  border-width: thin;
+  position: fixed;
+  top: 0;
+  left:0;
+}
+
+.header h1 {
+  padding: 0px 6px 6px 80px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #818181;
+  display: block;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #1B647F;
+}
+
+.breadCrumb {
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 55px;
+  left: 275px;
+  padding-left: 30px;
+  border-right-color: #818181;
+  border-right-style: solid;
+  border-right-width: thin;
+}
+
+.breadCrumb a, .breadCrumb p {
+  padding: 0px 6px 6px 3px;
+  font-size: 13px;
+  color: #818181;
+  display: inline-block;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #1B647F;
+}
+
+.main {
+  margin-left: 275px; /* Same as the width of the sidenav */
+  margin-top: 95px;
+  height: 100%;
+  width: 100%;
+  background-color: #e7f6fd;
+  position: fixed;
+}
