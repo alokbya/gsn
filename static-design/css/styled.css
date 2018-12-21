@@ -6,16 +6,17 @@ ul {
     background-color: #fff;
 }
 
+/* NAVBAR */
 nav{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 100%;
+    height: 100vh;
     float: left;
     background: #fff;
     margin: 0px;
     padding: 0px;
-    border: 5px solid #a7bcc8;
+    border-right: 2px solid #a7bcc8;
 }
 
 li a {
@@ -26,22 +27,27 @@ li a {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-/* Change the link color on hover */
 li a:hover {
-    background-color: #555;
-    color: white;
+    background-color: #e6edf1;
+    color: #194160;
 }
 
 .logo-container{
     background-color: #e6edf1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
 }
 
 .logo {
     height: 250px;
     width: inherit;
-    display: flex;
-    justify-content: center;
+    
 }
 
+body{
+    background-color: #e6edf1
+}
 
 
